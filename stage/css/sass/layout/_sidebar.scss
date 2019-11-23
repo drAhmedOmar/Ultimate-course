@@ -1,0 +1,13 @@
+body{
+  .sidebar{
+    max-width:250px;
+    min-height:100%;
+    padding:15px;
+    position:fixed;
+    top:0;
+    left:0;
+    will-change:width;
+    transition:.3s;
+    background-color:#eee;
+  }
+}

@@ -1,0 +1,12 @@
+- var pagetitle = "Homepage";
+<!DOCTYPEhtml>
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    include pug/layout/styles.pug
+    title #{pagetitle}
+  body
+    .page.homepage
+      include pug/layout/sidebar
+      .content-area The page content
+        h1 This is the #{pagetitle}
